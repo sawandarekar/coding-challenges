@@ -1,4 +1,4 @@
-package org.techHub.challenge.amdcs;
+package org.techHub.challenge.comp;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

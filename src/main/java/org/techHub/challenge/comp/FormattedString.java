@@ -1,4 +1,4 @@
-package org.techHub.challenge.amdcs;
+package org.techHub.challenge.comp;
 
 import java.util.ArrayList;
 import java.util.List;
