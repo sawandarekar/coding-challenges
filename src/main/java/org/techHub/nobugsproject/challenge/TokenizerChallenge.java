@@ -1,4 +1,4 @@
-package org.nobugsproject.challenge;
+package org.techHub.nobugsproject.challenge;
 
 import java.util.Scanner;
 import java.util.regex.Pattern;

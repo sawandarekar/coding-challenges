@@ -17,7 +17,8 @@ public class Permutations {
 
         // System.out.println("remove at 0:" + removeCharAt("12", 0));
         // System.out.println("remove at 1:" + removeCharAt("12", 1));
-        permutation("", "123456", 5);
+	String str = "123";
+	permutation("", str, str.length());
     }
 
     public static void permutation(String permutation, String str, int length) {

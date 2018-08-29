@@ -2,21 +2,18 @@ package org.techHub.challenge.comp;
 
 /**
  *
- * isPossible Test
- *
- * Consider a pair of integers (a,b) we can perform the following operation on (a,b) in any order, zero or more times
- * (a,b)-> (a+b,b)
- * (a,b)-> (a, a+b)
- *
- * function must return a string denoting whether or not you can convert(a,b) to (c,d)
- * by performing zero or more operations specified above, return YES or NO
- *
- * input : 1,4,5,9
- * output : YES
- *
- * explanation:
- * (1+4,4) -> (5,4)
- * (5,5+9) -> (5,9)
+ * isPossible Test <br>
+ * <br>
+ * Consider a pair of integers (a,b) we can perform the following operation on
+ * (a,b) in any order, zero or more times (a,b)-> (a+b,b) (a,b)-> (a, a+b) <br>
+ * <br>
+ * function must return a string denoting whether or not you can convert(a,b) to
+ * (c,d) by performing zero or more operations specified above, return YES or NO
+ * <br>
+ * <br>
+ * <b>input :</b>1,4,5,9 <b>output :</b> YES <br>
+ * <br>
+ * explanation: (1+4,4) -> (5,4) (5,5+9) -> (5,9)
  *
  *
  * @author darekar

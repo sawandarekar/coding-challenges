@@ -1,2 +1,2 @@
 # coding-challenges
-Contains coding challenges
+This repository contains coding challenges
