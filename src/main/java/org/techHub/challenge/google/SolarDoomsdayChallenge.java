@@ -18,7 +18,7 @@ public class SolarDoomsdayChallenge {
     }
 
     public static int[] answer(int area) {
-        final List<Integer> ls = new ArrayList<Integer>();
+        final List<Integer> ls = new ArrayList<>();
         int remaimingArea = area;
         do {
             final double d = Math.sqrt(area);
