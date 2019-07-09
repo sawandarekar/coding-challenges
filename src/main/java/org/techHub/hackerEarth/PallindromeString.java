@@ -3,7 +3,7 @@ package org.techHub.hackerEarth;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class PalindromeString {
+public class PallindromeString {
 
     public static void main(String[] args) throws Exception {
         final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
