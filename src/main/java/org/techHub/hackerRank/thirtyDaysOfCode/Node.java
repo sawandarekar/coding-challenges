@@ -8,3 +8,4 @@ public class Node {
         next = null;
     }
 }
+
