@@ -2,7 +2,7 @@ package org.techHub.hackerRank.thirtyDaysOfCode;
 
 import java.util.Scanner;
 
-public class Day9Recursion {
+public class Day9_Recursion {
 
     public static Scanner scanner = new Scanner(System.in);
 

@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * https://www.hackerrank.com/challenges/30-operators/problem
  */
-public class Day2Operators {
+public class Day2_Operators {
 
     private static final Scanner scanner = new Scanner(System.in);
 

@@ -5,11 +5,11 @@ import java.util.Scanner;
 /**
  * https://www.hackerrank.com/challenges/30-class-vs-instance/
  */
-public class Day4ClassVsInstance_Person {
+public class Day4_ClassVsInstance_Person {
 
     private int age;
 
-    public Day4ClassVsInstance_Person(int initialAge) {
+    public Day4_ClassVsInstance_Person(int initialAge) {
         if (initialAge < 0) {
             initialAge = 0;
             System.out.println("Age is not valid, setting age to 0.");
@@ -37,7 +37,7 @@ public class Day4ClassVsInstance_Person {
         int T = sc.nextInt();
         for (int i = 0; i < T; i++) {
             int age = sc.nextInt();
-            Day4ClassVsInstance_Person p = new Day4ClassVsInstance_Person(age);
+            Day4_ClassVsInstance_Person p = new Day4_ClassVsInstance_Person(age);
             p.amIOld();
             for (int j = 0; j < 3; j++) {
                 p.yearPasses();

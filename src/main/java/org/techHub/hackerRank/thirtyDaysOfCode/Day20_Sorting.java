@@ -3,7 +3,7 @@ package org.techHub.hackerRank.thirtyDaysOfCode;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Day20Sorting {
+public class Day20_Sorting {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

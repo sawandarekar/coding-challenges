@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * https://www.hackerrank.com/challenges/30-arrays
  */
-public class Day7Arrays {
+public class Day7_Arrays {
 
     public static Scanner scanner = new Scanner(System.in);
 

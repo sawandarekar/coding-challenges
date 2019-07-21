@@ -2,7 +2,7 @@ package org.techHub.hackerRank.thirtyDaysOfCode;
 
 import java.util.Scanner;
 
-public class Day3ConditionalStatements {
+public class Day3_ConditionalStatements {
 
     private static final Scanner scanner = new Scanner(System.in);
 

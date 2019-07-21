@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * https://www.hackerrank.com/challenges/30-exceptions-string-to-integer/
  */
-public class Day16ExceptionsStringToInteger {
+public class Day16_ExceptionsStringToInteger {
 
     public static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {

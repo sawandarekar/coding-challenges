@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Day8DictionariesAndMaps {
+public class Day8_DictionariesAndMaps {
 
     public static Scanner scanner = new Scanner(System.in);
 

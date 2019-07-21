@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * https://www.hackerrank.com/challenges/30-loops/
  */
-public class Day5Loop {
+public class Day5_Loop {
 
     private static Scanner scanner = new Scanner(System.in);
 

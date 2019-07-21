@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * https://www.hackerrank.com/challenges/30-linked-list
  */
-public class Day15LinkedList {
+public class Day15_LinkedList {
 
     public static  Node insert(Node head,int data) {
         if(head == null){

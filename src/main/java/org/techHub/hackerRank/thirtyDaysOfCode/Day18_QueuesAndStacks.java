@@ -8,7 +8,7 @@ import java.util.Stack;
 /**
  * https://www.hackerrank.com/challenges/30-queues-stacks/
  */
-public class Day18QueuesAndStacks {
+public class Day18_QueuesAndStacks {
     Queue<Character> queue = new LinkedList<>();
     Stack<Character> stack = new Stack<>();
 
@@ -37,7 +37,7 @@ public class Day18QueuesAndStacks {
         char[] s = input.toCharArray();
 
         // Create a Solution object:
-        Day18QueuesAndStacks p = new Day18QueuesAndStacks();
+        Day18_QueuesAndStacks p = new Day18_QueuesAndStacks();
 
         // Enqueue/Push all chars to their respective data structures:
         for (char c : s) {

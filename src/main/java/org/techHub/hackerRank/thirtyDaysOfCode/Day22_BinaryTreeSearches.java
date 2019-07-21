@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * https://www.hackerrank.com/challenges/30-binary-search-trees
  */
-public class Day22BinaryTreeSearches {
+public class Day22_BinaryTreeSearches {
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

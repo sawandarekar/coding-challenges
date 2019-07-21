@@ -10,7 +10,7 @@ import javax.security.sasl.SaslClient;
 /**
  * https://www.hackerrank.com/challenges/30-binary-numbers
  */
-public class Day10BinaryNumbers {
+public class Day10_BinaryNumbers {
 
     public static Scanner scanner = new Scanner(System.in);
 
