@@ -2,7 +2,7 @@ package org.techHub.hackerRank.thirtyDaysOfCode;
 
 import java.util.Scanner;
 
-public class Day17MoreExceptions {
+public class Day17_MoreExceptions {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

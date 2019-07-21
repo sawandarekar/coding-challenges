@@ -2,7 +2,7 @@ package org.techHub.hackerRank.thirtyDaysOfCode;
 
 import java.util.Scanner;
 
-public class Day13AbstractClasses {
+public class Day13_AbstractClasses {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String title = scanner.nextLine();

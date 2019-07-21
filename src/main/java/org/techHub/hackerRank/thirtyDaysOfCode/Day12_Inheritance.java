@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * https://www.hackerrank.com/challenges/30-inheritance
  */
-public class Day12Inheritance {
+public class Day12_Inheritance {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String firstName = scan.next();

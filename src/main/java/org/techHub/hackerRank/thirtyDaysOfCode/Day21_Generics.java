@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  *https://www.hackerrank.com/challenges/30-generics/
  */
-public class Day21Generics {
+public class Day21_Generics {
 
     public static void main(String args[]){
         Scanner scanner = new Scanner(System.in);
