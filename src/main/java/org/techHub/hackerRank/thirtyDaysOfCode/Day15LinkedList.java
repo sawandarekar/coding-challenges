@@ -39,11 +39,3 @@ public class Day15LinkedList {
         sc.close();
     }
 }
-class Node {
-    int data;
-    Node next;
-    Node(int d) {
-        data = d;
-        next = null;
-    }
-}

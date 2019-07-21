@@ -50,11 +50,3 @@ public class Day22BinaryTreeSearches {
         return Math.max(left, right);
     }
 }
-class BinaryTreeNode{
-    BinaryTreeNode left,right;
-    int data;
-    BinaryTreeNode(int d){
-        this.data = d;
-        left=right=null;
-    }
-}
