@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.util.stream.IntStream;
 
 /**
- *
+ *https://www.hackerrank.com/challenges/30-running-time-and-complexity/
  */
 public class Day25_RunningTimeAndComplexity {
 
@@ -16,6 +16,7 @@ public class Day25_RunningTimeAndComplexity {
         for (int i = 0; i < numbers; i++) {
             n[i] = sc.nextInt();
         }
+        long startTime = System.currentTimeMillis();
         //Arrays.stream(n).forEach(System.out::println);
         for (int i = 0; i < n.length; i++) {
             int numb = n[i];
@@ -31,7 +32,9 @@ public class Day25_RunningTimeAndComplexity {
                 System.out.println("Prime");
             }
         }
+        System.out.println("ForEach TimeTaken:"+(System.currentTimeMillis() - startTime)+" milli");
         System.out.println("----------------------");
+        startTime = System.currentTimeMillis();
         for (int i = 0; i < n.length; i++) {
             int val = n[i];
             for(int j=2; j<=val/j; j++){
@@ -42,5 +45,6 @@ public class Day25_RunningTimeAndComplexity {
             }
             System.out.println(val==1?"Not prime":"Prime");
         }
+        System.out.println("ForHalf TimeTaken:"+(System.currentTimeMillis() - startTime)+" milli");
     }
 }
