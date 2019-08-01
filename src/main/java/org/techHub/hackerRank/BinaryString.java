@@ -15,8 +15,8 @@ public class BinaryString {
 
     public static void main(String[] args) {
         new BinaryString("ABC");
-        int i = 6;
-        int j = 7;
+        int i = 8;
+        int j = 9;
         new BinaryString(i);
         new BinaryString(j);
         System.out.println("("+i+"&"+j+"):"+(i&j)+":"+Integer.toBinaryString(i&j));

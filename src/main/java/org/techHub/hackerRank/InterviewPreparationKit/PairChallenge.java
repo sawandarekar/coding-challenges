@@ -1,4 +1,4 @@
-package org.techHub.hackerRank;
+package org.techHub.hackerRank.InterviewPreparationKit;
 
 import java.util.ArrayList;
 import java.util.Collections;

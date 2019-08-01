@@ -1,4 +1,4 @@
-package org.techHub.hackerEarth;
+package org.techHub.hackerRank.InterviewPreparationKit;
 
 import java.util.Scanner;
 
