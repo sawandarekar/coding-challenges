@@ -3,6 +3,9 @@ package org.techHub.hackerRank.thirtyDaysOfCode;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * https://www.hackerrank.com/challenges/30-scope/problem
+ */
 public class Day14_Scope {
 
     public static void main(String[] args) {

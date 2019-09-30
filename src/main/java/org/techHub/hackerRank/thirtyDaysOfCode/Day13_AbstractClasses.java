@@ -2,6 +2,9 @@ package org.techHub.hackerRank.thirtyDaysOfCode;
 
 import java.util.Scanner;
 
+/**
+ *  https://www.hackerrank.com/challenges/30-abstract-classes/problem
+ */
 public class Day13_AbstractClasses {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
