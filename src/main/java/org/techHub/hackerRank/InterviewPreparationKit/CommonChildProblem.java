@@ -2,6 +2,9 @@ package org.techHub.hackerRank.InterviewPreparationKit;
 
 import java.util.Scanner;
 
+/**
+ *  https://www.hackerrank.com/challenges/common-child/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=strings
+ */
 public class CommonChildProblem {
     static int commonChild(String a, String b) {
 	int[][] C = new int[a.length() + 1][b.length() + 1];

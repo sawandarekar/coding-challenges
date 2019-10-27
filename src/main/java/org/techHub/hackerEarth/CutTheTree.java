@@ -3,7 +3,10 @@ package org.techHub.hackerEarth;
 import java.io.IOException;
 import java.util.Scanner;
 
-//https://www.hackerrank.com/challenges/cut-the-tree/problem
+/**
+ * https://www.hackerrank.com/challenges/cut-the-tree/problem
+ */
+
 public class CutTheTree {
     static int solve(int[] data, int[][] edges) {
 	int minDiff = 0;
