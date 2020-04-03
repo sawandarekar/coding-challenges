@@ -5,20 +5,20 @@ public class Permutations {
     static int count = 1;
 
     public static void main(String[] args) {
-        // final String str = "ABCDE";
-        // final int n = str.length();
-        // final Permutations permutation = new Permutations();
-        // permutation.permute(str, 0, n - 1);
+         final String str = "ABC";
+         final int n = str.length();
+         final Permutations permutation = new Permutations();
+         permutation.permute(str, 0, n - 1);
 
-        // final int arr[] = {1, 2, 3, 4, 5};
-        // final int r = 3;
-        // final int n = arr.length;
-        // printCombination(arr, n, r);
+        final int arr[] = {1, 2, 3, 4, 5};
+        final int r = 3;
+        final int n1 = arr.length;
+        printCombination(arr, n1, r);
 
         // System.out.println("remove at 0:" + removeCharAt("12", 0));
         // System.out.println("remove at 1:" + removeCharAt("12", 1));
-	String str = "123";
-	permutation("", str, str.length());
+        String str1= "123";
+        permutation("", str1, str1.length());
     }
 
     public static void permutation(String permutation, String str, int length) {
@@ -75,8 +75,8 @@ public class Permutations {
      * permutation function - permutation for all characters
      *
      * @param str string to calculate permutation for
-     * @param l starting index
-     * @param r end index
+     * @param l   starting index
+     * @param r   end index
      */
     private void permute(String str, int l, int r) {
         if (l == r) {
