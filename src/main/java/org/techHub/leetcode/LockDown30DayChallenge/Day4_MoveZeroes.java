@@ -15,6 +15,16 @@ public class Day4_MoveZeroes {
     }
 
     public void moveZeroes(int[] nums) {
+        for (int i = 0, nonZeroIndex = 0;  i < nums.length; i++) {
+            if(nums[i] != 0){
+                if(nonZeroIndex != i){
+                    nums[nonZeroIndex] = nums[i];
+                    nums[i] = 0;
+                }
+                nonZeroIndex++;
+            }
+        }
+        /*
         int swap;
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == 0) {
@@ -31,6 +41,20 @@ public class Day4_MoveZeroes {
                 }
             }
         }
+         */
+        /*
+        int lastNonZero = 0;
+        for(int n: nums){
+            if(n != 0){
+                nums[lastNonZero] = n;
+                lastNonZero ++;
+            }
+        }
+        while (lastNonZero < nums.length){
+            nums[lastNonZero] = 0;
+            lastNonZero ++;
+        }
+         */
         /*
         int i = 0;
         while (i < nums.length) {
