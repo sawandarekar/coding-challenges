@@ -21,10 +21,10 @@ public class Day24_LinkedListDeletion {
         return newHead;
     }
 
-    private static boolean existInNewNode(Node newHead, Node next) {
+    private static boolean existInNewNode(Node newHead, Node originalNode) {
         Node curr = newHead;
         while (curr != null) {
-            if (curr.data == next.data) {
+            if (curr.data == originalNode.data) {
                 return true;
             }
             curr = curr.next;
