@@ -19,18 +19,20 @@ public class Day22_BinaryTreeSearches {
         System.out.println(height);
     }
     public static BinaryTreeNode insert(BinaryTreeNode node, int data){
-        if(node == null){
+        if(node==null){
             return new BinaryTreeNode(data);
-        }else{
-            BinaryTreeNode curr;
-            if(data < node.data){
-                curr = new BinaryTreeNode(data);
-                node.left = curr;
-            }else{
-                curr = new BinaryTreeNode(data);
-                node.right = curr;
+        }
+        else{
+            BinaryTreeNode cur;
+            if(data<=node.data){
+                cur=insert(node.left,data);
+                node.left=cur;
             }
-            return  node;
+            else{
+                cur=insert(node.right,data);
+                node.right=cur;
+            }
+            return node;
         }
     }
     public static int getHeight(BinaryTreeNode root){
